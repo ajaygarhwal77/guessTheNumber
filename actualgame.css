@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background-repeat: no-repeat;
+    height: 991px;
+    position: relative;
+    display: flex;
+    background-color: #FFFFFF;
+    background-color: #85FFBD;
+    background: linear-gradient(to top right, rgba(19, 22, 27,0.6), rgba(13, 29, 44,0.2));
+    transition: all 0.75s;
+}
+.btn{
+    background:#fc0352;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  width: 250px;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.newgame{
+    margin-left: 800px;
+}
+.randomnumber{
+    margin-top: 100px;
+    margin-left: -330px;
+    font-size: 25px;
+}
+.limitdisplay{
+    margin-top: 250px;
+    margin-left: -930px;
+    width: 1500px;
+    height: 50px;
+    background-color: #fc0352;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    -webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+}
+.guessednumber{
+    margin-top: 320px;
+    margin-left: -1000px;
+    font-size: 25px;
+}
+.check{
+    margin-top: 530px;
+}
+.newnumber{
+    margin-top: 530px;
+}
+.hintbox{
+    margin-top: 630px;
+    -webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+}
+.scorebox{
+    margin-top: 770px;
+    background-color:#fc0352;
+    width: 430px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: -375px;
+    color: white;
+    -webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+font-size: 40px;
+}
+.randomnumberdisplay{
+    margin-left: 300px;
+    margin-top: -105px;
+    background-color:#fc0352;
+    color: black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+}
+.guessednumberdisplay{
+    margin-left: 140px;
+    height: 70px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:#fc0352;
+    -webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.75);
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    color: white;
+}
+.check{
+    margin-left: -470px;
+}
+.hintbox{
+    background-color:#fc0352;
+    width: 330px;
+    height: 100px;
+    border-radius: 5px;
+    z-index: 20;
+    margin-left: -415px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.numberoftriesnumber{
+    margin-left: 250px;
+    margin-top: -92px;
+}
+.totalscorenumber{
+    margin-left: 290px;
+    margin-top: -92px;
+}
+.numberoftriestext{
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+.totalscoretext{
+    margin-left: 50px;
+}
+.rightanswer{
+    background: linear-gradient(to top right, rgba(0, 255, 0, 0.692), rgba(13, 29, 44,0.2));
+}
+.wronganswer{
+    background: linear-gradient(to top right, rgba(255, 0, 0, 0.89), rgba(13, 29, 44,0.2));
+}
+.afterlossing{
+    z-index: 40;
+    width: 1200px;
+    height: 650px;
+    margin-left: -800px;
+    margin-top: 200px;
+    border-radius: 5px;
+    transition: all 5s;
+    text-align: center;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+}
+.headingafterloss{
+    color: white;
+    font-size: 170px;
+}
+.hidden{
+    display: none;
+}

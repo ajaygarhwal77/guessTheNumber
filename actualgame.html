@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="actualgame.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessTheNumber</title>
+</head>
+
+<body>
+    <button class="newgame btn">New Game</button>
+    <section class="randomnumber">
+        <h2>Random Number:</h2>
+        <div class="randomnumberdisplay">?</div>
+    </section>
+    <section class="limitdisplay">Click on new game to start the game</section>
+    <section class="guessednumber">
+        <h2>Type guessed number here:</h2>
+        <input type="number" class="guessednumberdisplay">
+    </section>
+    <button class="check btn btndisabled">Check</button>
+    <button class="newnumber btn">Get New Number</button>
+    <section class="hintbox">
+        <p class="hints">Click on new game</p>
+    </section>
+    <section class="scorebox">
+        <p class="numberoftriestext">Tries left:</p>
+        <p class="numberoftriesnumber">6</p>
+        <p class="totalscoretext">Total Score:</p>
+        <p class="totalscorenumber">0</p>
+    </section>
+    <div class="afterlossing hidden">
+        <h1 class="headingafterloss">You lost 😂😂</h1>
+        <button class="close btn">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
